@@ -35,7 +35,7 @@ gerarSenha({ tamanho: 12 }); // Senha de 12 caracteres incluindo números, letra
 
 gerarSenha({ tamanho: 12, simbolos: false }); // Senha de 12 caracteres que não inclui símbolos
 
-gerarSenha({ minusculo: false, maiusculo: false, naoIncluir: '0@!' }); // Senha de 8 caracteres que não inclui letras maiusculas ou minusculas, o número 0 e os símbolos @ e !
+gerarSenha({ minusculo: false, maiusculo: false, naoIncluir: '0@!' }); // Não inclui letras maiusculas ou minusculas, o número 0 e os símbolos @ e !
 ```
 
 <table>
@@ -50,7 +50,7 @@ gerarSenha({ minusculo: false, maiusculo: false, naoIncluir: '0@!' }); // Senha 
         <tr>
             <td>tamanho</td>
             <td>Número de carácteres da senha</td>
-            <td>8</td>
+            <td>Valor aleatório entre 8 e 16</td>
         </tr>
         <tr>
             <td>simbolos</td>
