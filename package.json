@@ -1,0 +1,20 @@
+{
+  "name": "gerar-senha",
+  "version": "1.0.0",
+  "description": "Um simples gerador de senhas para utilizar em suas aplicações.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulotokarskiglinski/gerar-senha.git"
+  },
+  "keywords": ["senha", "gerar", "gerador", "password", "generator"],
+  "author": "paulotokarskiglinski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulotokarskiglinski/gerar-senha/issues"
+  },
+  "homepage": "https://github.com/paulotokarskiglinski/gerar-senha#readme"
+}
