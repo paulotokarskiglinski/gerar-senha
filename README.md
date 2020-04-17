@@ -30,17 +30,11 @@ A função `gerarSenha()` irá gerar uma senha aletória com base nos parâmentr
 **Exemplos de utilização**
 ```js
 gerarSenha(); // Sem parâmetros passados será utilizado os valores default
-```
 
-```js
 gerarSenha({ tamanho: 12 }); // Senha de 12 caracteres incluindo números, letras e símbolos
-```
 
-```js
 gerarSenha({ tamanho: 12, simbolos: false }); // Senha de 12 caracteres que não inclui símbolos
-```
 
-```js
 gerarSenha({ minusculo: false, maiusculo: false, naoIncluir: '0@!' }); // Senha de 8 caracteres que não inclui letras maiusculas ou minusculas, o número 0 e os símbolos @ e !
 ```
 
